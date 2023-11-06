@@ -73,7 +73,7 @@ const Navbar = () => {
           </button>
         </div>
       </div>
-      <div className="container bg-gray-50 ">
+      <div className="container mx-auto z-10 bg-gray-50 absolute top-28 left-0">
         <ul className={`${menuOpen ? "" : "hidden"} `}>
           {lists.map((menu, index) => (
             <li key={index} className="p-4 hover:bg-gray-400">
